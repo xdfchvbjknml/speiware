@@ -1,2 +1,2 @@
 # SpyVirus
-idk used to be troll softaware(fake virus)
+idk used to be troll softaware(fake malware)
