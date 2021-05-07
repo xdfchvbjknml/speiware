@@ -77,3 +77,5 @@ if __name__ == '__main__':
     load_animation()
     print("Gay porn downloaded succesfully!")
     time.sleep(5)
+#nie moje
+#credit https://www.geeksforgeeks.org/python-create-simple-animation-for-console-based-application/

@@ -10,3 +10,4 @@ def setWallpaperWithCtypes(path):
 if __name__ == "__main__":
     path = r'C:\Users\Public\Pictures\eiffel.jpg'
     setWallpaperWithCtypes(path)
+#a to pobralem i nie dziala sadge
