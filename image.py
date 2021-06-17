@@ -1,4 +1,4 @@
-import tkinter as tk # importing
+import tkinter as tk
 import getpass
 import os
 #importowanie gowna

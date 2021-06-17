@@ -1,5 +1,5 @@
 import os
-
+#importowanie
 for i in range(128):
-    os.system("python rtd1.py")
-#uruchamianie skryptu grajocego suprise buttsecks
+    os.system("ffplay C://spei/bettersounds-Pry9d8pWfd0.mp3")
+#granie suprise
