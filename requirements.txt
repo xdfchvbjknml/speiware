@@ -3,7 +3,6 @@ threading
 youtube_dl
 sys
 tkinter
-getpass
 time
 random
 winsound

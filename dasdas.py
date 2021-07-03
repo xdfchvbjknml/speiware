@@ -1,14 +1,3 @@
-#!/bin/env python
-# Requires: youtube_dl module
-# Requires: ffmpeg
-# Usage:
-#
-# python youtube2mp3.py <URL>, ...
-# 
-# Example:
-# 
-# python youtube2mp3.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
 import youtube_dl
 import sys
 
